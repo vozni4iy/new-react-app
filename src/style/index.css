@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.form-wrapper > input, .form-wrapper > select {
+  margin-top: 10px;
+  width: 150px;
+}
+
+.form-group {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  margin-top: 20px;
+}
